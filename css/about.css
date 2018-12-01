@@ -1,0 +1,31 @@
+#about {
+  color: #555;
+  font-family: sans-serif;
+  position: fixed;
+  width: 100%;
+}
+
+#about-word {
+  font-style: italic;
+  position: absolute;
+}
+
+#about a {
+  color: lightblue;
+}
+
+#about a:hover {
+  color: yellow;
+}
+
+#about-text {
+  background-color: black;
+  color: #aaa;
+  line-height: 1.2;
+  position: absolute;
+  visibility: hidden;
+}
+
+#about:hover #about-text {
+  visibility: visible;
+}

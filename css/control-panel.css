@@ -1,0 +1,30 @@
+#control_panel {
+  background: midnightblue;
+  color: yellow;
+  font-family: Arial;
+  text-align: center;
+}
+
+#instructions span {
+  color: cyan;
+  font-style: italic;
+}
+
+input {
+  caret-color: yellow;
+  background: black;
+  color: cyan;
+}
+
+#hint_text {
+  line-height: 1.4;
+}
+
+#match_text {
+  color: darkorange;
+}
+
+code {
+  color: cyan;
+  font-family: monospace;
+}

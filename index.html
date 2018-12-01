@@ -1,0 +1,60 @@
+<html>
+<head>
+
+  <meta charset=UTF-8>
+  <title>Camping on Pluto</title>
+
+  <link rel=stylesheet href=css/reset.css>
+  <link rel=stylesheet href=css/layout.css>
+  <link rel=stylesheet href=css/about.css>
+  <link rel=stylesheet href=css/control-panel.css>
+  <link rel=stylesheet href=css/picture.css>
+  <link rel=stylesheet href=css/responsive.css>
+
+  <!-- DEVELOPMENT -->
+  <script src=js/live-reload.js></script>
+  <script src=js/test.js></script>
+  <script src=js/dev.js></script>
+  <script src=js/template.js></script>
+
+  <!-- PRODUCTION -->
+  <script src=js/shared.js></script>
+  <script src=js/setup_site.js></script>
+  <script src=js/check-if-object-match.js></script>
+  <script src=js/enter-pressed.js></script>
+  <script src=js/special-commands.js></script>
+  <script src=js/next-action.js></script>
+  <script src=js/level-1.js></script>
+  <script src=js/level-2.js></script>
+  <script src=js/level-3.js></script>
+  <script src=js/win.js></script>
+
+</head>
+<body>
+  <div id=about>
+    <span id=about-word>about</span>
+    <div id=about-text>
+      a hybrid game of <b>Pattern Matching</b> and <b>Paint-By-Numbers</b><br>
+      made by <a href=https://smallcity.ca>Sean Lerner</a> for the <a href=https://itch.io/jam/game-off-2018>Game Off 2018</a> game jam
+    </div>
+  </div>
+
+  <div id=layout>
+    <div id=control_panel>
+      <div id=instructions>instructions</div>
+      <div id=input_container>
+        <code>/^ <input type=text id=input> $/</code>
+      </div>
+      <div id=hint>
+        <span id=hint_text>hint_text</span>
+      </div>
+      <div id=match_text>match_text</div>
+    </div>
+    <div id=left></div>
+    <div id=picture></div>
+    <div id=right></div>
+  </div>
+
+
+</body>
+</html>

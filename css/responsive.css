@@ -1,0 +1,63 @@
+:root { --base: 20px }
+
+@media (max-width: 1020px) or (max-height: 730px) { :root { --base: 19px } }
+@media (max-width:  960px) or (max-height: 700px) { :root { --base: 18px } }
+@media (max-width:  920px) or (max-height: 670px) { :root { --base: 17px } }
+@media (max-width:  860px) or (max-height: 620px) { :root { --base: 16px } }
+@media (max-width:  810px) or (max-height: 590px) { :root { --base: 15px } }
+@media (max-width:  760px) or (max-height: 550px) { :root { --base: 14px } }
+@media (max-width:  710px) or (max-height: 520px) { :root { --base: 13px } }
+@media (max-width:  670px) or (max-height: 480px) { :root { --base: 12px } }
+@media (max-width:  620px) or (max-height: 450px) { :root { --base: 11px } }
+@media (max-width:  570px) or (max-height: 410px) { :root { --base: 10px } }
+@media (max-width:  520px) or (max-height: 380px) { :root { --base:  9px } }
+@media (max-width:  480px) or (max-height: 340px) { :root { --base:  8px } }
+@media (max-width:  430px) or (max-height: 310px) { :root { --base:  7px } }
+@media (max-width:  380px) or (max-height: 270px) { :root { --base:  6px } }
+
+*,
+#picture,
+#picture span {
+  font-size: var(--base);
+}
+
+#layout {
+  grid-template-rows: calc(var(--base) * 12) calc(var(--base) * 25);
+  grid-template-columns: 1fr calc(var(--base) * 48) 1fr;
+}
+
+#instructions,
+#instructions  span {
+  font-size: calc(var(--base) * 1.4);
+}
+
+#instructions {
+  margin-top: var(--base);
+}
+
+#input_container {
+  margin: var(--base);
+}
+
+input {
+  padding: calc(var(--base) / 2);
+}
+
+#match_text {
+  margin-top: calc(var(--base) / 2);
+}
+
+#about {
+  bottom: calc(var(--base) / 2);
+  height: calc(var(--base) * 3.5);
+  left: var(--base);
+}
+
+#about-word {
+  bottom: calc(var(--base) / 2);
+  font-size: calc(var(--base) / 1.3);
+}
+
+#about-text {
+  bottom: calc(var(--base) * 2);
+}

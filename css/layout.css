@@ -1,0 +1,37 @@
+#layout {
+  background: black;
+  display: grid;
+  height: 100%;
+  width: 100%;
+
+  grid-template-areas: 'top-left control_panel top-right'
+                       'left     picture       right';
+}
+
+#top-left {
+  grid-area: top-left;
+}
+
+#top-right {
+  grid-area: top-left;
+}
+
+#left {
+  grid-area: left;
+}
+
+#right {
+  grid-area: right;
+}
+
+#control_panel {
+  grid-area: control_panel;
+}
+
+#picture {
+  grid-area: picture;
+  font-family: monospace;
+  background: black;
+  color: yellow;
+  white-space: pre;
+}

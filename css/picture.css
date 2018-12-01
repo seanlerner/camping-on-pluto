@@ -1,0 +1,31 @@
+#picture .to-match {
+  color: grey;
+}
+
+#picture .current-goal {
+  color: cyan;
+}
+
+#picture .matched {
+  color: black;
+  background: lightgreen;
+}
+
+.error code {
+  color: red;
+}
+
+#picture .match {
+  background: yellow;
+  color: black;
+}
+
+#picture span.correct {
+  color: white;
+  background: green !important;
+}
+
+#picture span.incorrect {
+  color: black;
+  background: red !important;
+}
